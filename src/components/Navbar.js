@@ -16,7 +16,7 @@ function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/react-axios//user">User</Link>
+                                <Link className="nav-link" to="/react-axios/user">User</Link>
                             </li>
                         </ul>
                     </div>
