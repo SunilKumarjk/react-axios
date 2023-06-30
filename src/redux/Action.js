@@ -53,7 +53,7 @@ export const getUserObj = (data) => {
 export const fetchUserList = () => {
     return (dispatch)=>{
         dispatch(makeRequest());
-        axios.get('https://649d39d89bac4a8e669d676a.mockapi.io/user').then(res=>{
+        axios.get('http://localhost:8000/user').then(res=>{
             const userlist = res.data;
             dispatch(getUserList(userlist))
         }).catch(err=>{
