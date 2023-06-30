@@ -53,7 +53,7 @@ export const getUserObj = (data) => {
 export const fetchUserList = () => {
     return (dispatch)=>{
         dispatch(makeRequest());
-        axios.get('http://localhost:8000/user').then(res=>{
+        axios.get('https://sunilkumarjk.github.io/db/db.json').then(res=>{
             const userlist = res.data;
             dispatch(getUserList(userlist))
         }).catch(err=>{
