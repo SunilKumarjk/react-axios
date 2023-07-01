@@ -61,7 +61,7 @@ function UserListing(props) {
                                                                 <td>{item.role}</td>
                                                                 <td className="text-center">
                                                                     <Link to={'/user/edit/' + item.id} className="btn btn-sm btn-primary mb-2" style={{ marginRight: "10px" }}>Edit </Link>
-                                                                    <button onClick={()=>handelClick(item.id)} type="button" className="btn btn-sm btn-danger">Delete</button>
+                                                                    <button onClick={()=>handelClick(item.id)} type="button" className="btn btn-sm btn-danger mb-2">Delete</button>
                                                                 </td>
                                                             </tr>
                                                         )
