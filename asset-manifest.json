@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-axios/static/css/main.5f1619c1.css",
-    "main.js": "/react-axios/static/js/main.fd039de7.js",
+    "main.js": "/react-axios/static/js/main.c7d30d49.js",
     "static/js/787.a3ab92d3.chunk.js": "/react-axios/static/js/787.a3ab92d3.chunk.js",
     "index.html": "/react-axios/index.html",
     "main.5f1619c1.css.map": "/react-axios/static/css/main.5f1619c1.css.map",
-    "main.fd039de7.js.map": "/react-axios/static/js/main.fd039de7.js.map",
+    "main.c7d30d49.js.map": "/react-axios/static/js/main.c7d30d49.js.map",
     "787.a3ab92d3.chunk.js.map": "/react-axios/static/js/787.a3ab92d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f1619c1.css",
-    "static/js/main.fd039de7.js"
+    "static/js/main.c7d30d49.js"
   ]
 }
