@@ -14,13 +14,13 @@ import './App.css';
 
 
 const router = createBrowserRouter([
-  { path:'/', 
+  { path:'/react-axios', 
     element:<Navbar/>,
     children:[
       { index:true, element:<Home /> },
-      { path:'user', element:<UserListing /> },
-      { path:'user/add', element:<AddUser /> },
-      { path:'user/edit/:inputId', element:<Update /> },
+      { path:'/react-axios/user', element:<UserListing /> },
+      { path:'/react-axios/user/add', element:<AddUser /> },
+      { path:'/react-axios/user/edit/:inputId', element:<Update /> },
     ]
   },
  
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <Provider store={store}>
+    <Provider store={store} basename="/react-axios">
       <RouterProvider router={router}></RouterProvider>
       <ToastContainer className="toast-position" position="bottom-right"></ToastContainer>
     </Provider>
